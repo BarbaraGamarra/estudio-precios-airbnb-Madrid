@@ -2,5 +2,5 @@
 "*.log" 
 ".ipynb_checkpoints/" 
 "__pycache__/" 
-docs/
 notebook/*.py
+estudio-precios-airbnb-Madrid/
