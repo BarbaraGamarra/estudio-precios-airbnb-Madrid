@@ -3,4 +3,4 @@
 ".ipynb_checkpoints/" 
 "__pycache__/" 
 notebook/*.py
-estudio-precios-airbnb-Madrid/
+notebooks/iframe_figures/
