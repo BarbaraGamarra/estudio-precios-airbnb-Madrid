@@ -1,7 +1,9 @@
-# <span style="color: #ff385c;"> Análisis de Precios de Airbnb en Madrid</span>
+
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" width="300">
 </div>
+
+# <span style="color: #ff385c;"> Análisis de Precios de Airbnb en Madrid</span>
 
 ## <span style="color: #ff385c;"> Descripción del Proyecto</span>
 
