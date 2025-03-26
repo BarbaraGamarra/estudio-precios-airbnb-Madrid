@@ -1,14 +1,13 @@
-# Análisis de Precios de Airbnb en Madrid 🏘️🇪🇸
-
+# <span style="color: #ff385c;"> Análisis de Precios de Airbnb en Madrid</span>
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" width="300">
 </div>
 
-## Descripción del Proyecto
+## <span style="color: #ff385c;"> Descripción del Proyecto</span>
 
 Este proyecto realiza un análisis detallado de los precios de alojamientos de Airbnb en Madrid, con el objetivo de proporcionar insights estratégicos para optimizar la tarificación de propiedades.
 
-## Objetivo Principal
+## <span style="color: #ff385c;"> Objetivo Principal</span>
 
 Analizar los factores que influyen en los precios de los alojamientos de Airbnb en Madrid, con especial énfasis en:
 - Determinación del precio óptimo para propiedades
@@ -17,7 +16,7 @@ Analizar los factores que influyen en los precios de los alojamientos de Airbnb 
 - Relación entre valoraciones de huéspedes y precios
 - Diferencias entre Superhosts y anfitriones regulares
 
-## Conjuntos de Datos
+## <span style="color: #ff385c;"> Conjuntos de Datos</span>
 
 El proyecto trabaja con 5 dataframes principales:
 
@@ -29,13 +28,13 @@ El proyecto trabaja con 5 dataframes principales:
 | df_reviews | 21,020 | 16 | Datos de reseñas |
 | df_host | 21,020 | 13 | Información de los anfitriones |
 
-## Requisitos del Cliente
+## <span style="color: #ff385c;"> Requisitos del Cliente</span>
 
 - Enfoque en apartamentos de 1 a 3 habitaciones
 - Exclusión de propiedades de lujo
 - Optimización de precios
 
-## Metodología de Análisis
+## <span style="color: #ff385c;"> Metodología de Análisis</span>
 
 1. **Exploración y limpieza de datos**
    - Análisis de valores nulos
@@ -58,7 +57,7 @@ El proyecto trabaja con 5 dataframes principales:
    - Recomendaciones estratégicas
    - Propuestas de optimización de precios
 
-## Áreas de Análisis Principales
+## <span style="color: #ff385c;"> Áreas de Análisis Principales</span>
 
 ### Análisis Geográfico
 - Distribución de precios en Madrid
@@ -80,7 +79,7 @@ El proyecto trabaja con 5 dataframes principales:
 ### Análisis de Anfitriones
 - Comparativa entre Superhosts y anfitriones regulares
 
-## Cómo Empezar
+## ## <span style="color: #ff385c;"> Cómo Empezar</span>
 
 1. Clonar el repositorio
 2. Instalar dependencias: `pip install -r requirements.txt`
