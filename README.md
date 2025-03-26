@@ -1,83 +1,87 @@
-# Análisis de precios de Airbnb en Madrid
+# Análisis de Precios de Airbnb en Madrid 🏘️🇪🇸
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png" width="300">
 </div>
 
-## Objetivo del proyecto
+## Descripción del Proyecto
 
-Este proyecto tiene como objetivo analizar los factores que influyen en los precios de los alojamientos de Airbnb en Madrid, con especial foco en el perfil de propiedades de nuestro cliente.
+Este proyecto realiza un análisis detallado de los precios de alojamientos de Airbnb en Madrid, con el objetivo de proporcionar insights estratégicos para optimizar la tarificación de propiedades.
 
-Mediante técnicas de análisis de datos y visualización avanzada, buscaremos entender:
+## Objetivo Principal
 
-- ¿Qué características de las propiedades tienen mayor impacto en el precio?
-- ¿Cómo influye la ubicación en el coste de los alojamientos?
-- ¿Existe una correlación entre las valoraciones de los huéspedes y los precios?
-- ¿Qué diferencias hay entre las propiedades de los Superhosts y los anfitriones regulares?
-- ¿Cuál sería el precio óptimo para las propiedades de nuestro cliente según sus características?
+Analizar los factores que influyen en los precios de los alojamientos de Airbnb en Madrid, con especial énfasis en:
+- Determinación del precio óptimo para propiedades
+- Impacto de la ubicación en los costes
+- Características inmobiliarias que más influyen en el precio
+- Relación entre valoraciones de huéspedes y precios
+- Diferencias entre Superhosts y anfitriones regulares
 
-## Perfil del cliente
+## Conjuntos de Datos
 
-Nuestro cliente posee apartamentos con las siguientes características:
-- **Tipo de propiedad**: Apartamentos
-- **Localización**: Todos los barrios de Madrid
-- **Número de habitaciones**: De 1 a 3 habitaciones
-- **Rango de precio**: Segmento no lujo 
+El proyecto trabaja con 5 dataframes principales:
 
-## Metodología
+| DataFrame | Filas | Columnas | Descripción |
+|-----------|-------|----------|-------------|
+| df_conditions | 21,020 | 7 | Condiciones de los alojamientos |
+| df_location | 21,020 | 7 | Información geográfica |
+| df_property | 21,020 | 13 | Características de las propiedades |
+| df_reviews | 21,020 | 16 | Datos de reseñas |
+| df_host | 21,020 | 13 | Información de los anfitriones |
 
-El análisis se estructura en los siguientes apartados:
+## Requisitos del Cliente
 
-1. **Preparación y exploración inicial**
-   - 0. Librerías utilizadas (pandas, numpy, matplotlib, seaborn, plotly, folium, scipy)
-   - 1. Datos: carga, limpieza y transformación
-   - 2. Requisitos de cliente: definición del segmento objetivo
+- Enfoque en apartamentos de 1 a 3 habitaciones
+- Exclusión de propiedades de lujo
+- Optimización de precios
 
-2. **Análisis geográfico**
-   - 3.1. ¿Cómo influye en los precios la distancia a Sol?
-   - 3.2. ¿Cómo varía el precio según el barrio?
+## Metodología de Análisis
 
-3. **Análisis de inmuebles**
-   - 4.1. ¿Qué características tienen los pisos con precios óptimos?
-   - 4.2. ¿Qué comodidades tienen los pisos con precio óptimo?
+1. **Exploración y limpieza de datos**
+   - Análisis de valores nulos
+   - Detección de duplicados
+   - Identificación de outliers
 
-4. **Análisis contractual**
-   - 5. Estudio de políticas de cancelación, estancias mínimas y otros factores contractuales
+2. **Análisis exploratorio**
+   - Distribución de precios
+   - Relaciones entre variables
 
-5. **Análisis de reseñas**
-   - 6. Impacto de las valoraciones y comentarios de clientes en el precio
+3. **Análisis estadístico**
+   - Evaluación estadística de variables
+   - Identificación de factores clave
 
-## Datos
+4. **Visualización**
+   - Generación de gráficos informativos
+   - Representación visual de insights
 
-El análisis se basa en un conjunto de datos que incluye información sobre más de 21,000 propiedades en Madrid, con detalles sobre:
+5. **Conclusiones**
+   - Recomendaciones estratégicas
+   - Propuestas de optimización de precios
 
-- **Condiciones**: precio, noches mínimas/máximas, políticas de cancelación
-- **Anfitriones**: tiempo de respuesta, tasa de respuesta, estado de Superhost, verificaciones
-- **Ubicación**: vecindario, coordenadas, distancia a puntos de interés
-- **Propiedades**: tipo de propiedad, tipo de habitación, capacidad, comodidades
-- **Reseñas**: puntuaciones, cantidad de reseñas, idiomas de las reseñas
+## Áreas de Análisis Principales
 
-## Tecnologías utilizadas
+### Análisis Geográfico
+- Distribución de precios en Madrid
+- Influencia de la distancia a Sol
+- Variación de precios por barrio
 
-- **Lenguaje de programación**: Python
-- **Librerías de análisis**: 
-  - Pandas, NumPy: manipulación y procesamiento de datos
-  - SciPy: análisis estadístico
-  - ydata_profiling: generación de informes de datos
-- **Visualización**: 
-  - Matplotlib, Seaborn: gráficos estadísticos
-  - Plotly: visualizaciones interactivas
-  - Folium: mapas geoespaciales
-- **Entorno de desarrollo**: Jupyter Notebooks
+### Análisis de Inmuebles
+- Características de pisos con precios óptimos
+- Estudio de comodidades
+- Tipos de habitaciones y camas
 
-## Resultados y conclusiones
+### Análisis Contractual
+- Impacto de noches mínimas y máximas
+- Efecto de políticas de cancelación
 
-El proyecto proporciona:
+### Análisis de Reseñas
+- Impacto de valoraciones en precios
 
-- Identificación de los factores clave que influyen en el precio de los alojamientos
-- Análisis detallado del impacto de la ubicación en la rentabilidad
-- Mapas de calor y visualizaciones geoespaciales de la distribución de precios
-- Perfiles de propiedades más rentables por zona
-- Análisis de la relación entre comodidades ofrecidas y precios
-- Recomendaciones específicas para optimizar el precio de los apartamentos del cliente
-- Visualizaciones interactivas que muestran patrones y tendencias en el mercado
+### Análisis de Anfitriones
+- Comparativa entre Superhosts y anfitriones regulares
+
+## Cómo Empezar
+
+1. Clonar el repositorio
+2. Instalar dependencias: `pip install -r requirements.txt`
+3. Ejecutar el notebook principal
