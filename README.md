@@ -79,7 +79,7 @@ El proyecto trabaja con 5 dataframes principales:
 ### Análisis de Anfitriones
 - Comparativa entre Superhosts y anfitriones regulares
 
-## ## <span style="color: #ff385c;"> Cómo Empezar</span>
+##  <span style="color: #ff385c;"> Cómo Empezar</span>
 
 1. Clonar el repositorio
 2. Instalar dependencias: `pip install -r requirements.txt`
