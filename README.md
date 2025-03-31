@@ -15,6 +15,7 @@ Analizar los factores que influyen en los precios de los alojamientos de Airbnb 
 - Determinación del precio óptimo para propiedades
 - Impacto de la ubicación en los costes
 - Características inmobiliarias que más influyen en el precio
+- Claúsulas contractuales que afectan al precio.
 - Relación entre valoraciones de huéspedes y precios
 - Diferencias entre Superhosts y anfitriones regulares
 
