@@ -2,5 +2,4 @@
 "*.log" 
 ".ipynb_checkpoints/" 
 "__pycache__/" 
-notebook/*.py
-notebooks/iframe_figures/
+docs/*.html
