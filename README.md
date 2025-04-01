@@ -80,10 +80,10 @@ El proyecto trabaja con 5 dataframes principales:
 - Impacto de valoraciones en precios
 
 ### Análisis de Anfitriones
-- Comparativa entre Superhosts y anfitriones regulares
+- Comportamiento del Host
 
 ##  <span style="color: #ff385c;"> Cómo Empezar</span>
 
 1. Clonar el repositorio
 2. Instalar dependencias: `pip install -r requirements.txt`
-3. Ejecutar el notebook principal
+3. Ejecutar el notebook principal:`airnbn_Madrid.ipynb`
